@@ -5,7 +5,7 @@ function Stake() {
     return (
         <div className='Stake'>
             <Header />
-            <main>
+            <main className='main'>
                 <h1>
                     Total HEAP Staked <br/>
                     &#36;1,500,000,000
@@ -43,12 +43,38 @@ function Stake() {
                         CAKE EARNED <br/>
                         <div>
                             <span>0</span>
-                            <button>Collect</button>
+                            <button className='button-63'>Collect</button>
                         </div>
                     </div>
                     <div className='StartStakingDetails'>
                         START STAKING <br/>
-                        <button>Connect Wallet</button>
+                        <button className='button-63'>Connect Wallet</button>
+                    </div>
+                </div>
+
+                <div className='Connect'>
+                    <div className='Harvest'>
+                        ELK EARNED <br/>
+                        <div>
+                            <span>
+                                0.29741 <br />
+                                ~0.59 USD
+                            </span>
+                            <button className='button-63'>Harvest</button>
+                        </div>
+                    </div>
+                    <div className='Staked'>
+                        KARMA STAKED <br/>
+                        <div>
+                            <span>
+                                7,500.00000 <br />
+                                ~277.14 USD
+                            </span>
+                            <span>
+                                <button className='button-63'>-</button>
+                                <button className='button-63'>+</button>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </main>
