@@ -9,7 +9,7 @@ function Home () {
             <Header />
             <main className='main'>
                 <button class="button-63">
-                    <NavLink to={'/Stake'}>Stake</NavLink>
+                    <NavLink to={'/Stake'} className='NavLink'>STAKED</NavLink>
                 </button>
 
                 <div className='table'>
